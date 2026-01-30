@@ -24,3 +24,9 @@ error_log
 .DS_Store
 .idea/
 .vscode/
+
+# Security/plugin logs and staging artifacts
+wp-content/wflogs/
+wp-content/wpvividbackups/
+wp-content/wpvivid_staging/
+wp-content/wp-staging/
