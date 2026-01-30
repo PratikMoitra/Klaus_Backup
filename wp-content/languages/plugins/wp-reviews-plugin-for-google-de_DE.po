@@ -1,0 +1,208 @@
+# Translation of Plugins - Widgets for Google Reviews - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Widgets for Google Reviews - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-07 21:51:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Widgets for Google Reviews - Stable (latest release)\n"
+
+#: tabs/free-widget-configurator.php:974
+msgid "Title"
+msgstr "Titel"
+
+#: tabs/free-widget-configurator.php:983 tabs/free-widget-configurator.php:994
+msgid "Subtitle"
+msgstr "Untertitel"
+
+#: tabs/free-widget-configurator.php:1045
+msgid "Margin"
+msgstr "Außenabstand"
+
+#: tabs/free-widget-configurator.php:1023
+msgid "Color"
+msgstr "Farbe"
+
+#: tabs/free-widget-configurator.php:1009
+msgid "Icon"
+msgstr "Icon"
+
+#: tabs/free-widget-configurator.php:820
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: tabs/free-widget-configurator.php:828 tabs/free-widget-configurator.php:829
+msgid "Style %d"
+msgstr "Stil %d"
+
+#: tabs/get-reviews.php:43
+msgid "QR Codes"
+msgstr "QR-Codes"
+
+#: tabs/get-reviews.php:61
+msgid "WooCommerce Integrations"
+msgstr "WooCommerce-Integrationen"
+
+#: tabs/instagram-feed-widget.php:26
+msgid "Shortcode integration"
+msgstr "Shortcode-Integration"
+
+#: tabs/instagram-feed-widget.php:14
+msgid "Free features"
+msgstr "Kostenlose Funktionen"
+
+#: tabs/instagram-feed-widget.php:19
+msgid "Customizable"
+msgstr "Anpassbar"
+
+#: tabs/free-widget-configurator.php:944
+msgid "Select type"
+msgstr "Typ auswählen"
+
+#: tabs/free-widget-configurator.php:965
+msgid "Current year"
+msgstr "Aktuelles Jahr"
+
+#: tabs/advanced.php:105 tabs/advanced.php:121 tabs/advanced.php:157
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: tabs/advanced.php:103 tabs/advanced.php:119
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: include/rate-us-feedback-box.php:27 tabs/my-reviews.php:268
+#: tabs/my-reviews.php:289 tabs/my-reviews.php:308 tabs/my-reviews.php:345
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: tabs/free-widget-configurator.php:486 tabs/free-widget-configurator.php:1236
+msgid "Insert code"
+msgstr "Code einfügen"
+
+#: tabs/free-widget-configurator.php:483 tabs/free-widget-configurator.php:592
+msgid "Select Layout"
+msgstr "Layout auswählen"
+
+#: tabs/free-widget-configurator.php:484 tabs/free-widget-configurator.php:682
+msgid "Select Style"
+msgstr "Stil auswählen"
+
+#: include/feature-request.php:55
+msgid "Your email address"
+msgstr "Deine E-Mail-Adresse"
+
+#: include/feature-request.php:51
+msgid "Your name"
+msgstr "Dein Name"
+
+#: tabs/advanced.php:254
+msgid "Translation"
+msgstr "Übersetzung"
+
+#: tabs/free-widget-configurator.php:814
+msgid "Widget Settings"
+msgstr "Widget-Einstellungen"
+
+#: tabs/free-widget-configurator.php:790
+msgid "Widget Preview"
+msgstr "Widget-Vorschau"
+
+#: tabs/free-widget-configurator.php:706 tabs/free-widget-configurator.php:731
+#: tabs/free-widget-configurator.php:793
+msgid "Style"
+msgstr "Stil"
+
+#: tabs/free-widget-configurator.php:601 tabs/free-widget-configurator.php:642
+#: tabs/free-widget-configurator.php:798
+msgid "Layout"
+msgstr "Layout"
+
+#: tabs/free-widget-configurator.php:863 tabs/free-widget-configurator.php:957
+msgid "Select date format"
+msgstr "Datumsformat auswählen"
+
+#: tabs/advanced.php:304 tabs/advanced.php:305
+msgid "Password"
+msgstr "Passwort"
+
+#: tabs/my-reviews.php:211
+msgid "Text"
+msgstr "Text"
+
+#: wp-reviews-plugin-for-google.php:145
+msgid "Maybe later"
+msgstr "Vielleicht später"
+
+#: trustindex-plugin.class.php:1001
+msgid "or"
+msgstr "oder"
+
+#: trustindex-plugin.class.php:330
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: include/demo-widgets.php:9 include/demo-widgets.php:68
+msgid "Example Widget"
+msgstr "Beispiel-Widget"
+
+#: include/admin.php:222
+msgid "Solution"
+msgstr "Lösung"
+
+#: tabs/advanced.php:142
+msgid "Troubleshooting"
+msgstr "Problembehandlung"
+
+#: tabs/advanced.php:93
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: tabs/advanced.php:101 tabs/advanced.php:117
+msgid "Notification"
+msgstr "Benachrichtigung"
+
+#: tabs/free-widget-configurator.php:850
+msgid "Select language"
+msgstr "Sprache auswählen"
+
+#: wp-reviews-plugin-for-google.php:115
+msgid "Download plugin"
+msgstr "Plugin herunterladen"
+
+#: include/step-list.php:30
+msgid "Back"
+msgstr "Zurück"
+
+#: tabs/my-reviews.php:210
+msgid "Date"
+msgstr "Datum"
+
+#. Author URI of the plugin
+#: wp-reviews-plugin-for-google.php
+msgid "https://www.trustindex.io/"
+msgstr "https://www.trustindex.io/"
+
+#. Author of the plugin
+#: wp-reviews-plugin-for-google.php
+msgid "Trustindex.io <support@trustindex.io>"
+msgstr "Trustindex.io <support@trustindex.io>"
+
+#. Description of the plugin
+#: wp-reviews-plugin-for-google.php
+msgid "Embed Google reviews fast and easily into your WordPress site. Increase SEO, trust and sales using Google reviews."
+msgstr "Bette Google-Bewertungen schnell und einfach in deine WordPress-Website ein. Steigere SEO, Vertrauen und Umsatz mithilfe von Google-Unternehmensbewertungen."
+
+#. Plugin URI of the plugin
+#: wp-reviews-plugin-for-google.php
+msgid "https://wordpress.org/plugins/wp-reviews-plugin-for-google/"
+msgstr "https://de.wordpress.org/plugins/wp-reviews-plugin-for-google/"
+
+#. Plugin Name of the plugin
+#: wp-reviews-plugin-for-google.php
+msgid "Widgets for Google Reviews"
+msgstr "Widgets for Google Reviews"

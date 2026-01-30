@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-01-16T09:00:08+00:00\n"
+"PO-Revision-Date: 2025-01-16T09:00:08+00:00\n"
+"Language: \n"
+
+#. Plugin Name of the plugin
+msgid "WPCode Conversion Pixels"
+msgstr "Pixels de conversion WPCode"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.wpcode.com/"
+msgstr "https://www.wpcode.com/"
+
+#. Description of the plugin
+msgid "Easily add conversion pixels to your WordPress site using the WPCode plugin."
+msgstr "Ajoutez facilement des pixels de conversion à votre site WordPress à l’aide de l’extension WPCode."
+
+#. Author of the plugin
+msgid "WPCode"
+msgstr "WPCode"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:40
+msgid "Are you sure you want to remove this item?"
+msgstr "Confirmez-vous que vous souhaitez retirer cet article ?"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:53
+msgid "Snapchat"
+msgstr "Snapchat"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:54
+msgid "Click Tracking"
+msgstr "Suivi des clics"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:67
+msgid "Settings updated."
+msgstr "Réglages mis à jour."
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:68
+msgid "We encountered an error saving your settings."
+msgstr "Nous avons rencontré une erreur en enregistrant vos réglages."
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:274
+msgid "It looks like you are using an ad blocker. If you are having trouble confirming your pixels are loaded correctly, please whitelist this site or disable the adblocker."
+msgstr "Apparemment, vous utilisiez un bloqueur de publicité. Si vous avez des difficultés à confirmer que vos pixels sont chargés correctement, veuillez mettre ce site sur liste autorisée ou désactiver le bloqueur de publicité."
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:328
+msgid "Snapchat Pixel"
+msgstr "Pixel Snapchat"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:331
+msgid "Snap Pixel ID"
+msgstr "ID de pixel Snap"
+
+#. translators: %1$s and %2$s are the opening and closing anchor tags.
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:337
+msgid "You can find your Snapchat Pixel ID in the Snapchat Ads Manager. %1$sRead our step by step directions%2$s. "
+msgstr "Vous pouvez trouver votre ID de pixel Snapchat dans le gestionnaire de publicités Snapchat. %1$sLisez nos instructions étape par étape%2$s. "
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:346
+msgid "Conversions API Token"
+msgstr "Jeton API pour les conversions"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:350
+msgid "The Conversions API token allows you to send API events that are more reliable and can improve audience targeting."
+msgstr "Le jeton API Conversions vous autorise à envoyer des évènements API plus fiables et susceptibles d’améliorer le ciblage de l’audience."
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:356
+msgid "Snapchat Pixel Events"
+msgstr "Évènements Pixel Snapchat"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:360
+msgid "Pave View Event"
+msgstr "Évènement PageView"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:362
+msgid "Enable the PAGE_VIEW event to track and record page visits on all the pages of your website using the Snapchat Pixel."
+msgstr "Activez l’évènement PAGE_VIEW pour suivre et enregistrer les visites de pages sur toutes les pages de votre site à l’aide du pixel Snapchat."
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:370
+msgid "eCommerce Events Tracking"
+msgstr "Suivi des évènements eCommerce"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:376
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:463
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:389
+msgid "View Content Event"
+msgstr "Évènement Voir le contenu"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:391
+msgid "Turn on the \"VIEW_CONTENT\" event to track views of product pages on your website."
+msgstr "Activez l’évènement « VIEW_CONTENT » pour suivre les vues des pages de produits sur votre site."
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:396
+msgid "Add to Cart Event"
+msgstr "Évènement d’ajout au panier"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:398
+msgid "Turn on the \"ADD_CART\" event to track when items are added to a shopping cart on your website."
+msgstr "Activez l’évènement « ADD_CART » pour savoir quand des articles sont ajoutés à un panier d’achat sur votre site."
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:403
+msgid "Start Checkout Event"
+msgstr "Début de l’évènement Commande"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:405
+msgid "Turn on the \"START_CHECKOUT\" event to track when a user reaches the checkout page on your website."
+msgstr "Activez l’évènement « START_CHECKOUT » pour suivre le moment où un utilisateur / une utilisatrice atteint la page de commande."
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:410
+msgid "Purchase Event"
+msgstr "Évènement d’achat"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:412
+msgid "Turn on the \"PURCHASE\" event to track successful purchases on your website."
+msgstr "Activez l’évènement « ACHAT » pour suivre les achats bien effectués sur votre site."
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:438
+msgid "Custom Click Tracking"
+msgstr "Suivi des clics personnalisé"
+
+#. Translators: %1$s is the opening link tag, %2$s is the closing link tag
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:443
+msgid "Use this section to add custom click events to your site. You can add as many as you like. Each event can have multiple pixels and each pixel can have a custom event name and value. Read more about how to configure these settings in %1$sthis article%2$s"
+msgstr "Utilisez cette section pour ajouter des évènements de clics personnalisés à votre site. Vous pouvez en ajouter autant que vous le souhaitez. Chaque évènement peut avoir plusieurs pixels et chaque pixel peut avoir un nom et une valeur d’évènement personnalisés. Pour en savoir plus sur la manière de définir ces réglages, consultez %1$scet article%2$s."
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:457
+msgid "Add New Click Event"
+msgstr "Ajouter un nouvel évènement clic"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:487
+msgid "CSS Selector"
+msgstr "Sélecteur CSS"
+
+#. Translators: %1$s is an opening anchor tag, %2$s is a closing anchor tag.
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:493
+msgid "Define the HTML element that triggers the event upon clicking (button, link, etc). Input the appropriate CSS selector here. %1$sLearn more%2$s"
+msgstr "Définissez l’élément HTML qui déclenche l’évènement lors du clic (bouton, lien, etc.). Saisissez ici le sélecteur CSS approprié. %1$sEn savoir plus%2$s"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:501
+msgid "Event Name"
+msgstr "Nom de l’évènement"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:505
+msgid "Assign a unique identifier to your event for easy recognition and categorization. "
+msgstr "Assignez un identifiant unique à votre évènement pour en faciliter la reconnaissance et la catégorisation. "
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:509
+msgid "Event Value"
+msgstr "Valeur de l’évènement"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:513
+msgid "Input a numerical value for your event. This helps in quantifying user interactions for your tracking needs. "
+msgstr "Saisissez une valeur numérique pour votre évènement. Cela aide à quantifier les interactions des utilisateurs/utilisatrices pour vos besoins de suivi. "
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:520
+msgid "Pixels"
+msgstr "Pixels"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:527
+msgid "Remove Click Event"
+msgstr "Retirer l’évènement clic"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:546
+msgid "Choose which pixels to enable for this event. "
+msgstr "Choisissez les pixels à activer pour cet évènement. "
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:549
+msgid "You can choose a standard event for each pixel to override the custom event label set above."
+msgstr "Vous pouvez choisir un évènement standard pour chaque pixel afin d’écraser le libellé de l’évènement personnalisé défini ci-dessus."
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:578
+msgid "Choose Standard Event"
+msgstr "Choisissez l’évènement standard"
+
+#: includes/admin/pages/class-wpcode-pixel-admin-page-pixel.php:602
+msgid "Conversion Label"
+msgstr "Libellé de conversion"
+
+#. translators: %s - wpcode.com documentation page URL.
+#: wpcode-pixel.php:151
+msgid "The WPCode Conversion Pixels plugin has been deactivated. Your site is running an outdated version of PHP that is no longer supported and is not compatible with the Conversion Pixels addon. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Read more</a> for additional information."
+msgstr "L’extension WPCode Conversion Pixels a été désactivée. Votre site utilise une version obsolète de PHP qui n’est plus prise en charge et qui n’est pas compatible avec le module Pixels de conversion. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">En savoir plus</a>."

@@ -1,0 +1,1185 @@
+********************************************************************************
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2025-05-05 00:13:02
+NOTICE: Do NOT post to public sites or forums 
+PACKAGE CREATION START
+********************************************************************************
+********************************************************************************
+VERSION:	4.5.21.2
+WORDPRESS:	6.7.2
+PHP INFO:	8.2.28 | SAPI: litespeed
+SERVER:		LiteSpeed 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 2048M (2048M default) 
+RUN TYPE:	Schedule
+MEMORY STACK:	70MB
+ARCHIVE ENGINE: ZipArchive: multi-thread
+PACKAGE COMPONENTS:
+	Database,
+	Core,
+	Plugins,
+	Themes,
+	Media,
+	Other
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP + CHUNKING (query size limit - 131072 )
+
+TABLES: total: 317 | filtered:0 | create:317
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] wp_users NUM ROWS: 1
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] wp_users NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:1] wp_usermeta NUM ROWS: 104
+INSERT ROWS TABLE[INDEX:2] wpstg0_actionscheduler_actions NUM ROWS: 142
+INSERT ROWS TABLE[INDEX:3] wpstg0_actionscheduler_claims NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:4] wpstg0_actionscheduler_groups NUM ROWS: 11
+INSERT ROWS TABLE[INDEX:5] wpstg0_actionscheduler_logs NUM ROWS: 418
+INSERT ROWS TABLE[INDEX:6] wpstg0_asenha_failed_logins NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:7] wpstg0_bv_airlift_config NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:8] wpstg0_bv_airlift_stats NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:9] wpstg0_bv_dynamic_sync NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:10] wpstg0_commentmeta NUM ROWS: 6
+INSERT ROWS TABLE[INDEX:11] wpstg0_comments NUM ROWS: 3
+INSERT ROWS TABLE[INDEX:12] wpstg0_duplicator_backups NUM ROWS: 9
+INSERT ROWS TABLE[INDEX:13] wpstg0_duplicator_entities NUM ROWS: 11
+INSERT ROWS TABLE[INDEX:14] wpstg0_duplicator_packages NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:15] wpstg0_e_events NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:16] wpstg0_e_notes NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:17] wpstg0_e_notes_users_relations NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:18] wpstg0_e_submissions NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:19] wpstg0_e_submissions_actions_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:20] wpstg0_e_submissions_values NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:21] wpstg0_icl_background_task NUM ROWS: 52
+INSERT ROWS TABLE[INDEX:22] wpstg0_icl_content_status NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:23] wpstg0_icl_core_status NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:24] wpstg0_icl_flags NUM ROWS: 65
+INSERT ROWS TABLE[INDEX:25] wpstg0_icl_languages NUM ROWS: 65
+INSERT ROWS TABLE[INDEX:26] wpstg0_icl_languages_translations NUM ROWS: 4225
+INSERT ROWS TABLE[INDEX:27] wpstg0_icl_links_post_to_post NUM ROWS: 8
+INSERT ROWS TABLE[INDEX:28] wpstg0_icl_links_post_to_term NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:29] wpstg0_icl_locale_map NUM ROWS: 7
+INSERT ROWS TABLE[INDEX:30] wpstg0_icl_message_status NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:31] wpstg0_icl_node NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:32] wpstg0_icl_reminders NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:33] wpstg0_icl_strings NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:34] wpstg0_icl_string_positions NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:35] wpstg0_icl_string_status NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:36] wpstg0_icl_string_translations NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:37] wpstg0_icl_translate NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:38] wpstg0_icl_translate_job NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:39] wpstg0_icl_translations NUM ROWS: 2932
+INSERT ROWS TABLE[INDEX:40] wpstg0_icl_translation_batches NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:41] wpstg0_icl_translation_downloads NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:42] wpstg0_icl_translation_status NUM ROWS: 2190
+INSERT ROWS TABLE[INDEX:43] wpstg0_integrate_google_drive_files NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:44] wpstg0_integrate_google_drive_logs NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:45] wpstg0_integrate_google_drive_shortcodes NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:46] wpstg0_links NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:47] wpstg0_litespeed_url NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:48] wpstg0_litespeed_url_file NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:49] wpstg0_mc4wp_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:50] wpstg0_options NUM ROWS: 1434
+INSERT ROWS TABLE[INDEX:51] wpstg0_postmeta NUM ROWS: 11068
+INSERT ROWS TABLE[INDEX:52] wpstg0_posts NUM ROWS: 2856
+INSERT ROWS TABLE[INDEX:53] wpstg0_rank_math_analytics_objects NUM ROWS: 9
+INSERT ROWS TABLE[INDEX:54] wpstg0_rank_math_internal_links NUM ROWS: 3
+INSERT ROWS TABLE[INDEX:55] wpstg0_rank_math_internal_meta NUM ROWS: 9
+INSERT ROWS TABLE[INDEX:56] wpstg0_revslider_css NUM ROWS: 109
+INSERT ROWS TABLE[INDEX:57] wpstg0_revslider_css_bkp NUM ROWS: 47
+INSERT ROWS TABLE[INDEX:58] wpstg0_revslider_layer_animations NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:59] wpstg0_revslider_layer_animations_bkp NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:60] wpstg0_revslider_navigations NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:61] wpstg0_revslider_navigations_bkp NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:62] wpstg0_revslider_sliders NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:63] wpstg0_revslider_sliders7 NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:64] wpstg0_revslider_sliders_bkp NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:65] wpstg0_revslider_slides NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:66] wpstg0_revslider_slides7 NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:67] wpstg0_revslider_slides_bkp NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:68] wpstg0_revslider_static_slides NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:69] wpstg0_revslider_static_slides_bkp NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:70] wpstg0_rzp_webhook_requests NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:71] wpstg0_slider_pro_layers NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:72] wpstg0_slider_pro_sliders NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:73] wpstg0_slider_pro_slides NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:74] wpstg0_social_users NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:75] wpstg0_termmeta NUM ROWS: 244
+INSERT ROWS TABLE[INDEX:76] wpstg0_terms NUM ROWS: 119
+INSERT ROWS TABLE[INDEX:77] wpstg0_term_relationships NUM ROWS: 245
+INSERT ROWS TABLE[INDEX:78] wpstg0_term_taxonomy NUM ROWS: 119
+INSERT ROWS TABLE[INDEX:79] wpstg0_tm_taskmeta NUM ROWS: 183
+INSERT ROWS TABLE[INDEX:80] wpstg0_tm_tasks NUM ROWS: 183
+INSERT ROWS TABLE[INDEX:81] wpstg0_um_metadata NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:82] wpstg0_usermeta NUM ROWS: 105
+INSERT ROWS TABLE[INDEX:83] wpstg0_users NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:84] wpstg0_vxc_zoho_accounts NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:85] wpstg0_vxc_zoho_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:86] wpstg0_wcpdf_invoice_number NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:87] wpstg0_wc_admin_notes NUM ROWS: 68
+INSERT ROWS TABLE[INDEX:88] wpstg0_wc_admin_note_actions NUM ROWS: 97
+INSERT ROWS TABLE[INDEX:89] wpstg0_wc_category_lookup NUM ROWS: 20
+INSERT ROWS TABLE[INDEX:90] wpstg0_wc_customer_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:91] wpstg0_wc_download_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:92] wpstg0_wc_orders NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:93] wpstg0_wc_orders_meta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:94] wpstg0_wc_order_addresses NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:95] wpstg0_wc_order_coupon_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:96] wpstg0_wc_order_operational_data NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:97] wpstg0_wc_order_product_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:98] wpstg0_wc_order_stats NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:99] wpstg0_wc_order_tax_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:100] wpstg0_wc_product_attributes_lookup NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:101] wpstg0_wc_product_download_directories NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:102] wpstg0_wc_product_meta_lookup NUM ROWS: 24
+INSERT ROWS TABLE[INDEX:103] wpstg0_wc_rate_limits NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:104] wpstg0_wc_reserved_stock NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:105] wpstg0_wc_tax_rate_classes NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:106] wpstg0_wc_webhooks NUM ROWS: 6
+INSERT ROWS TABLE[INDEX:107] wpstg0_wfauditevents NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:108] wpstg0_wfblockediplog NUM ROWS: 3
+INSERT ROWS TABLE[INDEX:109] wpstg0_wfblocks7 NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:110] wpstg0_wfconfig NUM ROWS: 282
+INSERT ROWS TABLE[INDEX:111] wpstg0_wfcrawlers NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:112] wpstg0_wffilechanges NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:113] wpstg0_wffilemods NUM ROWS: 36177
+INSERT ROWS TABLE[INDEX:114] wpstg0_wfhits NUM ROWS: 30
+INSERT ROWS TABLE[INDEX:115] wpstg0_wfhoover NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:116] wpstg0_wfissues NUM ROWS: 14
+INSERT ROWS TABLE[INDEX:117] wpstg0_wfknownfilelist NUM ROWS: 36178
+INSERT ROWS TABLE[INDEX:118] wpstg0_wflivetraffichuman NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:119] wpstg0_wflocs NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:120] wpstg0_wflogins NUM ROWS: 13
+INSERT ROWS TABLE[INDEX:121] wpstg0_wfls_2fa_secrets NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:122] wpstg0_wfls_role_counts NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:123] wpstg0_wfls_settings NUM ROWS: 30
+INSERT ROWS TABLE[INDEX:124] wpstg0_wfnotifications NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:125] wpstg0_wfpendingissues NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:126] wpstg0_wfpklist_template_data NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:127] wpstg0_wfreversecache NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:128] wpstg0_wfsecurityevents NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:129] wpstg0_wfsnipcache NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:130] wpstg0_wfstatus NUM ROWS: 941
+INSERT ROWS TABLE[INDEX:131] wpstg0_wftrafficrates NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:132] wpstg0_wfwaffailures NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:133] wpstg0_woocommerce_api_keys NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:134] wpstg0_woocommerce_attribute_taxonomies NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:135] wpstg0_woocommerce_downloadable_product_permissions NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:136] wpstg0_woocommerce_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:137] wpstg0_woocommerce_order_itemmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:138] wpstg0_woocommerce_order_items NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:139] wpstg0_woocommerce_payment_tokenmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:140] wpstg0_woocommerce_payment_tokens NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:141] wpstg0_woocommerce_sessions NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:142] wpstg0_woocommerce_shipping_zones NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:143] wpstg0_woocommerce_shipping_zone_locations NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:144] wpstg0_woocommerce_shipping_zone_methods NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:145] wpstg0_woocommerce_tax_rates NUM ROWS: 15
+INSERT ROWS TABLE[INDEX:146] wpstg0_woocommerce_tax_rate_locations NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:147] wpstg0_woodmart_wishlists NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:148] wpstg0_woodmart_wishlist_products NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:149] wpstg0_wpcode_revisions NUM ROWS: 4
+INSERT ROWS TABLE[INDEX:150] wpstg0_wpo_404_detector NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:151] wpstg0_wpstg_queue NUM ROWS: 13
+INSERT ROWS TABLE[INDEX:152] wpstg0_yith_wcwl NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:153] wpstg0_yith_wcwl_itemmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:154] wpstg0_yith_wcwl_lists NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:155] wpstg0_yoast_indexable NUM ROWS: 17
+INSERT ROWS TABLE[INDEX:156] wpstg0_yoast_indexable_hierarchy NUM ROWS: 14
+INSERT ROWS TABLE[INDEX:157] wpstg0_yoast_migrations NUM ROWS: 26
+INSERT ROWS TABLE[INDEX:158] wpstg0_yoast_primary_term NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:159] wpstg0_yoast_prominent_words NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:160] wpstg0_yoast_seo_links NUM ROWS: 3
+INSERT ROWS TABLE[INDEX:161] wp_actionscheduler_actions NUM ROWS: 127
+INSERT ROWS TABLE[INDEX:162] wp_actionscheduler_claims NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:163] wp_actionscheduler_groups NUM ROWS: 10
+INSERT ROWS TABLE[INDEX:164] wp_actionscheduler_logs NUM ROWS: 375
+INSERT ROWS TABLE[INDEX:165] wp_asenha_failed_logins NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:166] wp_bv_airlift_config NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:167] wp_bv_airlift_stats NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:168] wp_bv_dynamic_sync NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:169] wp_commentmeta NUM ROWS: 6
+INSERT ROWS TABLE[INDEX:170] wp_comments NUM ROWS: 3
+INSERT ROWS TABLE[INDEX:171] wp_duplicator_backups NUM ROWS: 9
+INSERT ROWS TABLE[INDEX:172] wp_duplicator_entities NUM ROWS: 11
+INSERT ROWS TABLE[INDEX:173] wp_duplicator_packages NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:174] wp_e_events NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:175] wp_e_notes NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:176] wp_e_notes_users_relations NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:177] wp_e_submissions NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:178] wp_e_submissions_actions_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:179] wp_e_submissions_values NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:180] wp_icl_background_task NUM ROWS: 52
+INSERT ROWS TABLE[INDEX:181] wp_icl_content_status NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:182] wp_icl_core_status NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:183] wp_icl_flags NUM ROWS: 65
+INSERT ROWS TABLE[INDEX:184] wp_icl_languages NUM ROWS: 65
+INSERT ROWS TABLE[INDEX:185] wp_icl_languages_translations NUM ROWS: 4225
+INSERT ROWS TABLE[INDEX:186] wp_icl_links_post_to_post NUM ROWS: 8
+INSERT ROWS TABLE[INDEX:187] wp_icl_links_post_to_term NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:188] wp_icl_locale_map NUM ROWS: 7
+INSERT ROWS TABLE[INDEX:189] wp_icl_message_status NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:190] wp_icl_node NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:191] wp_icl_reminders NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:192] wp_icl_strings NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:193] wp_icl_string_positions NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:194] wp_icl_string_status NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:195] wp_icl_string_translations NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:196] wp_icl_translate NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:197] wp_icl_translate_job NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:198] wp_icl_translations NUM ROWS: 2932
+INSERT ROWS TABLE[INDEX:199] wp_icl_translation_batches NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:200] wp_icl_translation_downloads NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:201] wp_icl_translation_status NUM ROWS: 2190
+INSERT ROWS TABLE[INDEX:202] wp_integrate_google_drive_files NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:203] wp_integrate_google_drive_logs NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:204] wp_integrate_google_drive_shortcodes NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:205] wp_links NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:206] wp_litespeed_url NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:207] wp_litespeed_url_file NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:208] wp_mc4wp_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:209] wp_options NUM ROWS: 1339
+INSERT ROWS TABLE[INDEX:210] wp_postmeta NUM ROWS: 10962
+INSERT ROWS TABLE[INDEX:211] wp_posts NUM ROWS: 2838
+INSERT ROWS TABLE[INDEX:212] wp_rank_math_analytics_objects NUM ROWS: 9
+INSERT ROWS TABLE[INDEX:213] wp_rank_math_internal_links NUM ROWS: 3
+INSERT ROWS TABLE[INDEX:214] wp_rank_math_internal_meta NUM ROWS: 9
+INSERT ROWS TABLE[INDEX:215] wp_revslider_css NUM ROWS: 109
+INSERT ROWS TABLE[INDEX:216] wp_revslider_css_bkp NUM ROWS: 47
+INSERT ROWS TABLE[INDEX:217] wp_revslider_layer_animations NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:218] wp_revslider_layer_animations_bkp NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:219] wp_revslider_navigations NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:220] wp_revslider_navigations_bkp NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:221] wp_revslider_sliders NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:222] wp_revslider_sliders7 NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:223] wp_revslider_sliders_bkp NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:224] wp_revslider_slides NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:225] wp_revslider_slides7 NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:226] wp_revslider_slides_bkp NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:227] wp_revslider_static_slides NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:228] wp_revslider_static_slides_bkp NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:229] wp_slider_pro_layers NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:230] wp_slider_pro_sliders NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:231] wp_slider_pro_slides NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:232] wp_social_users NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:233] wp_termmeta NUM ROWS: 244
+INSERT ROWS TABLE[INDEX:234] wp_terms NUM ROWS: 119
+INSERT ROWS TABLE[INDEX:235] wp_term_relationships NUM ROWS: 245
+INSERT ROWS TABLE[INDEX:236] wp_term_taxonomy NUM ROWS: 119
+INSERT ROWS TABLE[INDEX:237] wp_tm_taskmeta NUM ROWS: 169
+INSERT ROWS TABLE[INDEX:238] wp_tm_tasks NUM ROWS: 169
+INSERT ROWS TABLE[INDEX:239] wp_um_metadata NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:240] wp_vxc_zoho_accounts NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:241] wp_vxc_zoho_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:242] wp_wcpdf_invoice_number NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:243] wp_wc_admin_notes NUM ROWS: 69
+INSERT ROWS TABLE[INDEX:244] wp_wc_admin_note_actions NUM ROWS: 97
+INSERT ROWS TABLE[INDEX:245] wp_wc_category_lookup NUM ROWS: 20
+INSERT ROWS TABLE[INDEX:246] wp_wc_customer_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:247] wp_wc_download_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:248] wp_wc_orders NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:249] wp_wc_orders_meta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:250] wp_wc_order_addresses NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:251] wp_wc_order_coupon_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:252] wp_wc_order_operational_data NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:253] wp_wc_order_product_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:254] wp_wc_order_stats NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:255] wp_wc_order_tax_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:256] wp_wc_product_attributes_lookup NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:257] wp_wc_product_download_directories NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:258] wp_wc_product_meta_lookup NUM ROWS: 24
+INSERT ROWS TABLE[INDEX:259] wp_wc_rate_limits NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:260] wp_wc_reserved_stock NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:261] wp_wc_tax_rate_classes NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:262] wp_wc_webhooks NUM ROWS: 6
+INSERT ROWS TABLE[INDEX:263] wp_wfauditevents NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:264] wp_wfblockediplog NUM ROWS: 3
+INSERT ROWS TABLE[INDEX:265] wp_wfblocks7 NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:266] wp_wfconfig NUM ROWS: 282
+INSERT ROWS TABLE[INDEX:267] wp_wfcrawlers NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:268] wp_wffilechanges NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:269] wp_wffilemods NUM ROWS: 36177
+INSERT ROWS TABLE[INDEX:270] wp_wfhits NUM ROWS: 30
+INSERT ROWS TABLE[INDEX:271] wp_wfhoover NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:272] wp_wfissues NUM ROWS: 14
+INSERT ROWS TABLE[INDEX:273] wp_wfknownfilelist NUM ROWS: 36178
+INSERT ROWS TABLE[INDEX:274] wp_wflivetraffichuman NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:275] wp_wflocs NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:276] wp_wflogins NUM ROWS: 13
+INSERT ROWS TABLE[INDEX:277] wp_wfls_2fa_secrets NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:278] wp_wfls_role_counts NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:279] wp_wfls_settings NUM ROWS: 30
+INSERT ROWS TABLE[INDEX:280] wp_wfnotifications NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:281] wp_wfpendingissues NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:282] wp_wfpklist_template_data NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:283] wp_wfreversecache NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:284] wp_wfsecurityevents NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:285] wp_wfsnipcache NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:286] wp_wfstatus NUM ROWS: 941
+INSERT ROWS TABLE[INDEX:287] wp_wftrafficrates NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:288] wp_wfwaffailures NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:289] wp_woocommerce_api_keys NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:290] wp_woocommerce_attribute_taxonomies NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:291] wp_woocommerce_downloadable_product_permissions NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:292] wp_woocommerce_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:293] wp_woocommerce_order_itemmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:294] wp_woocommerce_order_items NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:295] wp_woocommerce_payment_tokenmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:296] wp_woocommerce_payment_tokens NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:297] wp_woocommerce_sessions NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:298] wp_woocommerce_shipping_zones NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:299] wp_woocommerce_shipping_zone_locations NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:300] wp_woocommerce_shipping_zone_methods NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:301] wp_woocommerce_tax_rates NUM ROWS: 15
+INSERT ROWS TABLE[INDEX:302] wp_woocommerce_tax_rate_locations NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:303] wp_woodmart_wishlists NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:304] wp_woodmart_wishlist_products NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:305] wp_wpcode_revisions NUM ROWS: 4
+INSERT ROWS TABLE[INDEX:306] wp_wpo_404_detector NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:307] wp_wpstg_queue NUM ROWS: 13
+INSERT ROWS TABLE[INDEX:308] wp_yith_wcwl NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:309] wp_yith_wcwl_itemmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:310] wp_yith_wcwl_lists NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:311] wp_yoast_indexable NUM ROWS: 17
+INSERT ROWS TABLE[INDEX:312] wp_yoast_indexable_hierarchy NUM ROWS: 14
+INSERT ROWS TABLE[INDEX:313] wp_yoast_migrations NUM ROWS: 26
+INSERT ROWS TABLE[INDEX:314] wp_yoast_primary_term NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:315] wp_yoast_prominent_words NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:316] wp_yoast_seo_links NUM ROWS: 3
+SQL FILE SIZE CHECK OK, SIZE: 77574589
+SQL CREATED: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_database.sql
+SQL FILE SIZE: 73.98MB
+SQL FILE TIME: 2025-05-05 00:13:11
+SQL RUNTIME: 9.645 sec.
+MEMORY STACK: 68MB
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /home/u726299508/domains/chamkileystore.in/public_html
+ARCHIVE FILE: 20250505_chamkileystore_2d65225332f015b01192_20250505001235_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	4.93GB
+STATS:	Dirs 22,961 | Files 141,706 | Total 164,667
+[PHP ERR][ISSUE] MSG:Creation of dynamic property WPO_WCPDF_Templates::$updater is deprecated [CODE:8192|FILE:/home/u726299508/domains/chamkileystore.in/public_html/wp-content/plugins/woocommerce-pdf-ips-templates/woocommerce-pdf-ips-templates.php|LINE:333]
+[PHP ERR][WARN] MSG:ZipArchive::close(): Invalid argument [CODE:2|FILE:/home/u726299508/domains/chamkileystore.in/public_html/wp-content/plugins/duplicator-pro/src/Utils/ZipArchiveExtended.php|LINE:205]

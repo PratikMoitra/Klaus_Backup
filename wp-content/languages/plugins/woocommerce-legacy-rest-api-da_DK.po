@@ -1,0 +1,1022 @@
+# Translation of Plugins - WooCommerce Legacy REST API - Stable (latest release) in Danish
+# This file is distributed under the same license as the Plugins - WooCommerce Legacy REST API - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-03-20 12:35:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - WooCommerce Legacy REST API - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-legacy-rest-api.php
+msgid "WooCommerce Legacy REST API"
+msgstr "WooCommerce Legacy REST API"
+
+#. Plugin URI of the plugin
+#: woocommerce-legacy-rest-api.php
+msgid "https://github.com/woocommerce/woocommerce-legacy-rest-api"
+msgstr "https://github.com/woocommerce/woocommerce-legacy-rest-api"
+
+#. Description of the plugin
+#: woocommerce-legacy-rest-api.php
+msgid "The legacy WooCommerce REST API, which used to be part of WooCommerce itself but is removed as of WooCommerce 9.0."
+msgstr "The legacy WooCommerce REST API, som plejede at være en del af WooCommerce selv, men fjernes fra WooCommerce 9.0."
+
+#. Author of the plugin
+#: woocommerce-legacy-rest-api.php
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/class-wc-api.php:80
+msgid "The Rest API is unavailable."
+msgstr "Rest API er ikke tilgængelig."
+
+#: includes/legacy/api/class-wc-rest-legacy-coupons-controller.php:113
+msgid "The coupon code cannot be empty."
+msgstr "Kuponkoden skal udfyldes."
+
+#: includes/legacy/api/class-wc-rest-legacy-coupons-controller.php:129
+#: includes/legacy/api/v2/class-wc-api-coupons.php:233
+#: includes/legacy/api/v2/class-wc-api-coupons.php:344
+#: includes/legacy/api/v3/class-wc-api-coupons.php:231
+#: includes/legacy/api/v3/class-wc-api-coupons.php:342
+msgid "The coupon code already exists"
+msgstr "Kuponkoden eksisterer allerede"
+
+#: includes/legacy/api/class-wc-rest-legacy-orders-controller.php:249
+#: includes/legacy/api/v2/class-wc-api-orders.php:388
+#: includes/legacy/api/v2/class-wc-api-orders.php:535
+#: includes/legacy/api/v3/class-wc-api-orders.php:423
+#: includes/legacy/api/v3/class-wc-api-orders.php:573
+msgid "Customer ID is invalid."
+msgstr "Ugyldig kunde Id."
+
+#. translators: 1: variation id 2: product name
+#: includes/legacy/api/class-wc-rest-legacy-products-controller.php:532
+#: includes/legacy/api/v2/class-wc-api-products.php:1293
+#: includes/legacy/api/v3/class-wc-api-products.php:1783
+msgid "Variation #%1$s of %2$s"
+msgstr "Variation #%1$s af %2$s"
+
+#: includes/legacy/api/v1/class-wc-api-authentication.php:93
+#: includes/legacy/api/v2/class-wc-api-authentication.php:92
+msgid "Consumer key is missing."
+msgstr "Forbrugernøglen mangler"
+
+#: includes/legacy/api/v1/class-wc-api-authentication.php:109
+#: includes/legacy/api/v2/class-wc-api-authentication.php:108
+msgid "Consumer secret is missing."
+msgstr "Forbrugernøgle hemmelighed mangler"
+
+#: includes/legacy/api/v1/class-wc-api-authentication.php:115
+#: includes/legacy/api/v2/class-wc-api-authentication.php:114
+#: includes/legacy/api/v3/class-wc-api-authentication.php:83
+msgid "Consumer secret is invalid."
+msgstr "Forbruger hemmelighed er ugyldig."
+
+#. translators: %s: parameter name
+#: includes/legacy/api/v1/class-wc-api-authentication.php:149
+#: includes/legacy/api/v2/class-wc-api-authentication.php:147
+#: includes/legacy/api/v3/class-wc-api-authentication.php:144
+msgid "%s parameter is missing"
+msgstr "%s parameter mangler"
+
+#: includes/legacy/api/v1/class-wc-api-authentication.php:184
+#: includes/legacy/api/v2/class-wc-api-authentication.php:182
+#: includes/legacy/api/v3/class-wc-api-authentication.php:179
+msgid "Consumer key is invalid."
+msgstr "Forbrugernøglen er ugyldig."
+
+#: includes/legacy/api/v1/class-wc-api-authentication.php:203
+#: includes/legacy/api/v2/class-wc-api-authentication.php:200
+#: includes/legacy/api/v3/class-wc-api-authentication.php:199
+msgid "API user is invalid"
+msgstr "Ugyldig API bruger"
+
+#: includes/legacy/api/v1/class-wc-api-authentication.php:253
+#: includes/legacy/api/v2/class-wc-api-authentication.php:250
+#: includes/legacy/api/v3/class-wc-api-authentication.php:243
+msgid "Invalid signature - failed to sort parameters."
+msgstr "Ugyldig signatur - kunne ikke sortere parametre."
+
+#: includes/legacy/api/v1/class-wc-api-authentication.php:267
+#: includes/legacy/api/v2/class-wc-api-authentication.php:264
+#: includes/legacy/api/v3/class-wc-api-authentication.php:263
+msgid "Invalid signature - signature method is invalid."
+msgstr "Ugyldig signatur - signaturmetoden er ugyldig."
+
+#: includes/legacy/api/v1/class-wc-api-authentication.php:275
+#: includes/legacy/api/v2/class-wc-api-authentication.php:272
+#: includes/legacy/api/v3/class-wc-api-authentication.php:272
+msgid "Invalid signature - provided signature does not match."
+msgstr "Ugyldig signatur - forudsat at signaturen ikke stemmer overens."
+
+#: includes/legacy/api/v1/class-wc-api-authentication.php:333
+#: includes/legacy/api/v2/class-wc-api-authentication.php:330
+#: includes/legacy/api/v3/class-wc-api-authentication.php:337
+msgid "Invalid timestamp."
+msgstr "Ugyldig tidsstempel."
+
+#: includes/legacy/api/v1/class-wc-api-authentication.php:343
+#: includes/legacy/api/v2/class-wc-api-authentication.php:340
+#: includes/legacy/api/v3/class-wc-api-authentication.php:347
+msgid "Invalid nonce - nonce has already been used."
+msgstr "Ugyldig nonce - nonce er allerede brugt."
+
+#: includes/legacy/api/v1/class-wc-api-authentication.php:378
+#: includes/legacy/api/v2/class-wc-api-authentication.php:375
+#: includes/legacy/api/v3/class-wc-api-authentication.php:382
+msgid "The API key provided does not have read permissions."
+msgstr "API koden har ikke de nødvendige læse rettigheder."
+
+#: includes/legacy/api/v1/class-wc-api-authentication.php:387
+#: includes/legacy/api/v2/class-wc-api-authentication.php:384
+#: includes/legacy/api/v3/class-wc-api-authentication.php:391
+msgid "The API key provided does not have write permissions."
+msgstr "API koden har ikke de nødvendige skrive rettigheder."
+
+#: includes/legacy/api/v1/class-wc-api-coupons.php:111
+#: includes/legacy/api/v2/class-wc-api-coupons.php:117
+#: includes/legacy/api/v3/class-wc-api-coupons.php:117
+msgid "Invalid coupon ID"
+msgstr "Ugyldig rabatkode"
+
+#: includes/legacy/api/v1/class-wc-api-coupons.php:154
+#: includes/legacy/api/v2/class-wc-api-coupons.php:163
+#: includes/legacy/api/v3/class-wc-api-coupons.php:161
+msgid "You do not have permission to read the coupons count"
+msgstr "Du har ikke tilladelse til at læse antal rabatkode"
+
+#: includes/legacy/api/v1/class-wc-api-coupons.php:174
+#: includes/legacy/api/v2/class-wc-api-coupons.php:189
+#: includes/legacy/api/v3/class-wc-api-coupons.php:187
+msgid "Invalid coupon code"
+msgstr "Ugyldig rabatkode"
+
+#: includes/legacy/api/v1/class-wc-api-customers.php:186
+#: includes/legacy/api/v2/class-wc-api-customers.php:231
+#: includes/legacy/api/v3/class-wc-api-customers.php:232
+msgid "You do not have permission to read the customers count"
+msgstr "Du har ikke tilladelse til at læse kundetælleren"
+
+#: includes/legacy/api/v1/class-wc-api-customers.php:202
+#: includes/legacy/api/v2/class-wc-api-customers.php:356
+#: includes/legacy/api/v3/class-wc-api-customers.php:357
+msgid "You do not have permission to create this customer"
+msgstr "Du har ikke tilladelse til at oprette denne kunde"
+
+#: includes/legacy/api/v1/class-wc-api-customers.php:434
+#: includes/legacy/api/v2/class-wc-api-customers.php:719
+#: includes/legacy/api/v3/class-wc-api-customers.php:709
+msgid "Invalid customer ID"
+msgstr "Ugyldig kunde ID"
+
+#: includes/legacy/api/v1/class-wc-api-customers.php:441
+#: includes/legacy/api/v2/class-wc-api-customers.php:726
+#: includes/legacy/api/v3/class-wc-api-customers.php:716
+msgid "Invalid customer"
+msgstr "Ugyldig kunde"
+
+#: includes/legacy/api/v1/class-wc-api-customers.php:449
+#: includes/legacy/api/v2/class-wc-api-customers.php:734
+#: includes/legacy/api/v3/class-wc-api-customers.php:724
+msgid "You do not have permission to read this customer"
+msgstr "Du har ikke tilladelse til at læse denne kunde"
+
+#: includes/legacy/api/v1/class-wc-api-customers.php:455
+#: includes/legacy/api/v2/class-wc-api-customers.php:740
+#: includes/legacy/api/v3/class-wc-api-customers.php:730
+msgid "You do not have permission to edit this customer"
+msgstr "Du har ikke de nødvendige rettigheder for at kunne redigere dette"
+
+#: includes/legacy/api/v1/class-wc-api-customers.php:461
+#: includes/legacy/api/v2/class-wc-api-customers.php:746
+#: includes/legacy/api/v3/class-wc-api-customers.php:736
+msgid "You do not have permission to delete this customer"
+msgstr "Du har ikke tilladelse til at slette denne kunde"
+
+#: includes/legacy/api/v1/class-wc-api-json-handler.php:55
+#: includes/legacy/api/v2/class-wc-api-json-handler.php:54
+#: includes/legacy/api/v3/class-wc-api-json-handler.php:54
+msgid "JSONP support is disabled on this site"
+msgstr "JSONP understøttes ikke på siden"
+
+#: includes/legacy/api/v1/class-wc-api-json-handler.php:62
+#: includes/legacy/api/v2/class-wc-api-json-handler.php:61
+#: includes/legacy/api/v3/class-wc-api-json-handler.php:61
+msgid "The JSONP callback function is invalid"
+msgstr "JSONP callback funktionen er ikke gyldig"
+
+#: includes/legacy/api/v1/class-wc-api-orders.php:255
+#: includes/legacy/api/v2/class-wc-api-orders.php:299
+#: includes/legacy/api/v3/class-wc-api-orders.php:336
+msgid "You do not have permission to read the orders count"
+msgstr "Du har ikke tilladelse til at læse ordrerne tæller"
+
+#: includes/legacy/api/v1/class-wc-api-products.php:147
+#: includes/legacy/api/v2/class-wc-api-products.php:185
+#: includes/legacy/api/v3/class-wc-api-products.php:234
+msgid "You do not have permission to read the products count"
+msgstr "Du har ikke tilladelse til at læse produkterne tæller"
+
+#: includes/legacy/api/v1/class-wc-api-products.php:459
+#: includes/legacy/api/v1/class-wc-api-products.php:460
+#: includes/legacy/api/v2/class-wc-api-products.php:1620
+#: includes/legacy/api/v2/class-wc-api-products.php:1621
+#: includes/legacy/api/v3/class-wc-api-products.php:2119
+#: includes/legacy/api/v3/class-wc-api-products.php:2120
+msgid "Placeholder"
+msgstr "Pladsholder"
+
+#: includes/legacy/api/v1/class-wc-api-reports.php:475
+#: includes/legacy/api/v2/class-wc-api-reports.php:322
+#: includes/legacy/api/v3/class-wc-api-reports.php:326
+msgid "You do not have permission to read this report"
+msgstr "Du har ikke de nødvendige rettigheder til at kunne se denne rapport"
+
+#: includes/legacy/api/v1/class-wc-api-resource.php:74
+#: includes/legacy/api/v2/class-wc-api-resource.php:94
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:476
+#: includes/legacy/api/v3/class-wc-api-resource.php:96
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:476
+msgid "Invalid %s ID"
+msgstr "Ugyldig %s Id"
+
+#: includes/legacy/api/v1/class-wc-api-resource.php:87
+#: includes/legacy/api/v2/class-wc-api-resource.php:111
+#: includes/legacy/api/v3/class-wc-api-resource.php:119
+msgid "Invalid %s"
+msgstr "Ugyldig %s"
+
+#: includes/legacy/api/v1/class-wc-api-resource.php:95
+#: includes/legacy/api/v2/class-wc-api-resource.php:119
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:490
+#: includes/legacy/api/v3/class-wc-api-resource.php:128
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:490
+msgid "You do not have permission to read this %s"
+msgstr "Du har ikke adgang til at kunne se dette %s"
+
+#: includes/legacy/api/v1/class-wc-api-resource.php:101
+#: includes/legacy/api/v2/class-wc-api-resource.php:125
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:496
+#: includes/legacy/api/v3/class-wc-api-resource.php:134
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:496
+msgid "You do not have permission to edit this %s"
+msgstr "Du har ikke de nødvendige rettigheder for at kunne redigere dette %s"
+
+#: includes/legacy/api/v1/class-wc-api-resource.php:107
+#: includes/legacy/api/v2/class-wc-api-resource.php:131
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:502
+#: includes/legacy/api/v3/class-wc-api-resource.php:140
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:502
+msgid "You do not have permission to delete this %s"
+msgstr "Du har ikke tilladelse til at slette denne %s"
+
+#: includes/legacy/api/v1/class-wc-api-resource.php:313
+#: includes/legacy/api/v2/class-wc-api-resource.php:372
+#: includes/legacy/api/v3/class-wc-api-resource.php:380
+msgid "Permanently deleted customer"
+msgstr "Permanent slettet kunde"
+
+#: includes/legacy/api/v1/class-wc-api-resource.php:315
+#: includes/legacy/api/v2/class-wc-api-resource.php:374
+#: includes/legacy/api/v3/class-wc-api-resource.php:382
+msgid "The customer cannot be deleted"
+msgstr "Kunden kan ikke slettes"
+
+#: includes/legacy/api/v1/class-wc-api-resource.php:323
+#: includes/legacy/api/v2/class-wc-api-products.php:455
+#: includes/legacy/api/v2/class-wc-api-resource.php:382
+#: includes/legacy/api/v3/class-wc-api-products.php:514
+#: includes/legacy/api/v3/class-wc-api-products.php:2987
+#: includes/legacy/api/v3/class-wc-api-resource.php:390
+msgid "This %s cannot be deleted"
+msgstr "Denne %s kan ikke slettes"
+
+#: includes/legacy/api/v1/class-wc-api-resource.php:327
+#: includes/legacy/api/v2/class-wc-api-products.php:464
+#: includes/legacy/api/v2/class-wc-api-resource.php:386
+#: includes/legacy/api/v3/class-wc-api-products.php:523
+#: includes/legacy/api/v3/class-wc-api-resource.php:394
+msgid "Permanently deleted %s"
+msgstr "Slettet permanent %s"
+
+#: includes/legacy/api/v1/class-wc-api-resource.php:333
+#: includes/legacy/api/v2/class-wc-api-products.php:468
+#: includes/legacy/api/v2/class-wc-api-products.php:2176
+#: includes/legacy/api/v2/class-wc-api-resource.php:390
+#: includes/legacy/api/v3/class-wc-api-products.php:527
+#: includes/legacy/api/v3/class-wc-api-products.php:866
+#: includes/legacy/api/v3/class-wc-api-products.php:1058
+#: includes/legacy/api/v3/class-wc-api-products.php:2732
+#: includes/legacy/api/v3/class-wc-api-products.php:2994
+#: includes/legacy/api/v3/class-wc-api-products.php:3305
+#: includes/legacy/api/v3/class-wc-api-resource.php:400
+#: includes/legacy/api/v3/class-wc-api-taxes.php:354
+#: includes/legacy/api/v3/class-wc-api-taxes.php:623
+msgid "Deleted %s"
+msgstr "Slettet %s"
+
+#: includes/legacy/api/v1/class-wc-api-server.php:168
+#: includes/legacy/api/v2/class-wc-api-server.php:164
+#: includes/legacy/api/v3/class-wc-api-server.php:164
+msgid "Invalid authentication method"
+msgstr "Ugyldig godkendelsesmetode"
+
+#: includes/legacy/api/v1/class-wc-api-server.php:321
+#: includes/legacy/api/v2/class-wc-api-server.php:319
+#: includes/legacy/api/v3/class-wc-api-server.php:319
+msgid "Unsupported request method"
+msgstr "Ikke understøttet forespørgsel"
+
+#: includes/legacy/api/v1/class-wc-api-server.php:340
+#: includes/legacy/api/v2/class-wc-api-server.php:338
+#: includes/legacy/api/v3/class-wc-api-server.php:338
+msgid "The handler for the route is invalid"
+msgstr "Handler for route er ugyldig"
+
+#: includes/legacy/api/v1/class-wc-api-server.php:377
+#: includes/legacy/api/v2/class-wc-api-server.php:375
+#: includes/legacy/api/v3/class-wc-api-server.php:375
+msgid "No route was found matching the URL and request method"
+msgstr "Ingen route blev fundet der passer med URL og førespørgslen"
+
+#: includes/legacy/api/v1/class-wc-api-server.php:412
+#: includes/legacy/api/v2/class-wc-api-coupons.php:226
+#: includes/legacy/api/v2/class-wc-api-customers.php:363
+#: includes/legacy/api/v2/class-wc-api-products.php:228
+#: includes/legacy/api/v2/class-wc-api-products.php:1929
+#: includes/legacy/api/v2/class-wc-api-server.php:430
+#: includes/legacy/api/v3/class-wc-api-coupons.php:224
+#: includes/legacy/api/v3/class-wc-api-customers.php:364
+#: includes/legacy/api/v3/class-wc-api-products.php:277
+#: includes/legacy/api/v3/class-wc-api-products.php:2482
+#: includes/legacy/api/v3/class-wc-api-products.php:2868
+#: includes/legacy/api/v3/class-wc-api-server.php:431
+#: includes/legacy/api/v3/class-wc-api-taxes.php:575
+msgid "Missing parameter %s"
+msgstr "Mangler parameter %s"
+
+#: includes/legacy/api/v2/class-wc-api-coupons.php:219
+#: includes/legacy/api/v3/class-wc-api-coupons.php:217
+msgid "You do not have permission to create coupons"
+msgstr "Du har ikke tilladelse til at oprette rabatkoder"
+
+#: includes/legacy/api/v2/class-wc-api-coupons.php:261
+#: includes/legacy/api/v2/class-wc-api-coupons.php:365
+#: includes/legacy/api/v3/class-wc-api-coupons.php:259
+#: includes/legacy/api/v3/class-wc-api-coupons.php:363
+msgid "Invalid coupon type - the coupon type must be any of these: %s"
+msgstr "Forkert rabatkode - rabatkoden skal være en af disse: %s"
+
+#: includes/legacy/api/v2/class-wc-api-coupons.php:350
+#: includes/legacy/api/v2/class-wc-api-coupons.php:358
+#: includes/legacy/api/v3/class-wc-api-coupons.php:348
+#: includes/legacy/api/v3/class-wc-api-coupons.php:356
+msgid "Failed to update coupon"
+msgstr "Kunne ikke opdatere rabatkode"
+
+#: includes/legacy/api/v2/class-wc-api-coupons.php:521
+#: includes/legacy/api/v2/class-wc-api-customers.php:784
+#: includes/legacy/api/v2/class-wc-api-orders.php:1775
+#: includes/legacy/api/v2/class-wc-api-products.php:2249
+#: includes/legacy/api/v3/class-wc-api-coupons.php:521
+#: includes/legacy/api/v3/class-wc-api-customers.php:774
+#: includes/legacy/api/v3/class-wc-api-orders.php:1820
+#: includes/legacy/api/v3/class-wc-api-products.php:3041
+#: includes/legacy/api/v3/class-wc-api-taxes.php:457
+msgid "No %1$s data specified to create/edit %1$s"
+msgstr "Ingen %1$s data angivet til oprettelse/redigering af %1$s"
+
+#: includes/legacy/api/v2/class-wc-api-coupons.php:529
+#: includes/legacy/api/v2/class-wc-api-customers.php:792
+#: includes/legacy/api/v2/class-wc-api-orders.php:1783
+#: includes/legacy/api/v2/class-wc-api-products.php:2257
+#: includes/legacy/api/v3/class-wc-api-coupons.php:529
+#: includes/legacy/api/v3/class-wc-api-customers.php:782
+#: includes/legacy/api/v3/class-wc-api-orders.php:1828
+#: includes/legacy/api/v3/class-wc-api-products.php:3049
+#: includes/legacy/api/v3/class-wc-api-taxes.php:465
+msgid "Unable to accept more than %s items for this request."
+msgstr "Kan ikke modtage mere end %s styk for denne forespørgsel."
+
+#: includes/legacy/api/v2/class-wc-api-coupons.php:212
+#: includes/legacy/api/v2/class-wc-api-customers.php:349
+#: includes/legacy/api/v2/class-wc-api-orders.php:365
+#: includes/legacy/api/v2/class-wc-api-orders.php:1285
+#: includes/legacy/api/v2/class-wc-api-orders.php:1579
+#: includes/legacy/api/v2/class-wc-api-products.php:214
+#: includes/legacy/api/v2/class-wc-api-products.php:1967
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:171
+#: includes/legacy/api/v3/class-wc-api-coupons.php:210
+#: includes/legacy/api/v3/class-wc-api-customers.php:350
+#: includes/legacy/api/v3/class-wc-api-orders.php:400
+#: includes/legacy/api/v3/class-wc-api-orders.php:1330
+#: includes/legacy/api/v3/class-wc-api-orders.php:1624
+#: includes/legacy/api/v3/class-wc-api-products.php:263
+#: includes/legacy/api/v3/class-wc-api-products.php:707
+#: includes/legacy/api/v3/class-wc-api-products.php:959
+#: includes/legacy/api/v3/class-wc-api-products.php:2520
+#: includes/legacy/api/v3/class-wc-api-products.php:2848
+#: includes/legacy/api/v3/class-wc-api-products.php:3191
+#: includes/legacy/api/v3/class-wc-api-taxes.php:184
+#: includes/legacy/api/v3/class-wc-api-taxes.php:564
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:171
+msgid "No %1$s data specified to create %1$s"
+msgstr "Ingen %1$s data angivet til oprettelse af %1$s"
+
+#: includes/legacy/api/v2/class-wc-api-coupons.php:324
+#: includes/legacy/api/v2/class-wc-api-customers.php:404
+#: includes/legacy/api/v2/class-wc-api-orders.php:504
+#: includes/legacy/api/v2/class-wc-api-orders.php:1344
+#: includes/legacy/api/v2/class-wc-api-orders.php:1658
+#: includes/legacy/api/v2/class-wc-api-products.php:323
+#: includes/legacy/api/v2/class-wc-api-products.php:2051
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:242
+#: includes/legacy/api/v3/class-wc-api-coupons.php:322
+#: includes/legacy/api/v3/class-wc-api-customers.php:405
+#: includes/legacy/api/v3/class-wc-api-orders.php:542
+#: includes/legacy/api/v3/class-wc-api-orders.php:1389
+#: includes/legacy/api/v3/class-wc-api-orders.php:1703
+#: includes/legacy/api/v3/class-wc-api-products.php:377
+#: includes/legacy/api/v3/class-wc-api-products.php:784
+#: includes/legacy/api/v3/class-wc-api-products.php:1004
+#: includes/legacy/api/v3/class-wc-api-products.php:2605
+#: includes/legacy/api/v3/class-wc-api-products.php:2913
+#: includes/legacy/api/v3/class-wc-api-products.php:3249
+#: includes/legacy/api/v3/class-wc-api-taxes.php:254
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:242
+msgid "No %1$s data specified to edit %1$s"
+msgstr "Ingen %1$s data angivet til redigering af %1$s"
+
+#: includes/legacy/api/v2/class-wc-api-customers.php:207
+#: includes/legacy/api/v2/class-wc-api-customers.php:210
+#: includes/legacy/api/v3/class-wc-api-customers.php:208
+#: includes/legacy/api/v3/class-wc-api-customers.php:211
+msgid "Invalid customer email"
+msgstr "Ugyldig kunde e-mail"
+
+#: includes/legacy/api/v2/class-wc-api-customers.php:374
+#: includes/legacy/api/v3/class-wc-api-customers.php:375
+msgid "This resource cannot be created."
+msgstr "Denne ressource kan ikke oprettes."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:372
+#: includes/legacy/api/v3/class-wc-api-orders.php:407
+msgid "You do not have permission to create orders"
+msgstr "Du har ikke tilladelse til at oprette ordrer"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:398
+#: includes/legacy/api/v3/class-wc-api-orders.php:433
+msgid "Cannot create order: %s"
+msgstr "Kan ikke oprette ordre: %s"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:432
+#: includes/legacy/api/v3/class-wc-api-orders.php:472
+msgid "Payment method ID and title are required"
+msgstr "Betalingsmetode ID og titel er påkrævet"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:448
+#: includes/legacy/api/v2/class-wc-api-orders.php:600
+#: includes/legacy/api/v3/class-wc-api-orders.php:488
+#: includes/legacy/api/v3/class-wc-api-orders.php:637
+msgid "Provided order currency is invalid."
+msgstr "Den angivne ordrevaluta er ugyldig."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:521
+#: includes/legacy/api/v2/class-wc-api-orders.php:1592
+#: includes/legacy/api/v3/class-wc-api-orders.php:559
+#: includes/legacy/api/v3/class-wc-api-orders.php:1637
+msgid "Order ID is invalid"
+msgstr "Ordre ID er ugyldigt"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:844
+#: includes/legacy/api/v3/class-wc-api-orders.php:888
+msgid "Order item ID provided is not associated with order."
+msgstr "Ordre element ID angivet er ikke tilknyttet en ordre."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:865
+#: includes/legacy/api/v3/class-wc-api-orders.php:909
+msgid "Product ID or SKU is required"
+msgstr "Vare-id eller varenummer er påkrævet"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:875
+#: includes/legacy/api/v3/class-wc-api-orders.php:919
+msgid "Product ID provided does not match this line item"
+msgstr "Det angivne varenummer svarer ikke til denne produktlinje"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:890
+#: includes/legacy/api/v3/class-wc-api-orders.php:934
+msgid "The product variation is invalid"
+msgstr "Produktet variation er ugyldig"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:900
+#: includes/legacy/api/v3/class-wc-api-orders.php:944
+msgid "Product is invalid."
+msgstr "Varen er ugyldig."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:905
+#: includes/legacy/api/v3/class-wc-api-orders.php:949
+msgid "Product quantity must be a positive float."
+msgstr "Vare antal skal være et positivt kommatal."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:910
+#: includes/legacy/api/v3/class-wc-api-orders.php:954
+msgid "Product quantity is required."
+msgstr "Vare antal skal udfyldes."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:953
+#: includes/legacy/api/v3/class-wc-api-orders.php:998
+msgid "Cannot create line item, try again."
+msgstr "Kan ikke oprette linjen, prøv venligst igen."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1029
+#: includes/legacy/api/v3/class-wc-api-orders.php:1074
+msgid "Shipping total must be a positive amount."
+msgstr "Leverings totalen skal være et positivt beløb."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1036
+#: includes/legacy/api/v3/class-wc-api-orders.php:1081
+msgid "Shipping method ID is required."
+msgstr "Leveringsmåde ID skal udfyldes."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1063
+#: includes/legacy/api/v3/class-wc-api-orders.php:1108
+msgid "Cannot update shipping method, try again."
+msgstr "Kan ikke opdatere leveringsmåden, prøv venligst igen."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1083
+#: includes/legacy/api/v3/class-wc-api-orders.php:1128
+msgid "Fee title is required"
+msgstr "Gebyr titel er påkrævet"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1094
+#: includes/legacy/api/v3/class-wc-api-orders.php:1139
+msgid "Fee tax class is required when fee is taxable."
+msgstr "Gebyr moms klasse er krævet når der er moms på gebyret."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1134
+#: includes/legacy/api/v3/class-wc-api-orders.php:1179
+msgid "Cannot update fee, try again."
+msgstr "Kan ikke opdatere gebyret, prøv igen."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1152
+#: includes/legacy/api/v3/class-wc-api-orders.php:1197
+msgid "Coupon discount total must be a positive amount."
+msgstr "Rabatkoden skal samlet være et positivt tal."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1159
+#: includes/legacy/api/v3/class-wc-api-orders.php:1204
+msgid "Coupon code is required."
+msgstr "Rabatkode er påkrævet."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1185
+#: includes/legacy/api/v3/class-wc-api-orders.php:1230
+msgid "Cannot update coupon, try again."
+msgstr "Kan ikke opdatere rabatkoden, prøv igen."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1252
+#: includes/legacy/api/v2/class-wc-api-orders.php:1362
+#: includes/legacy/api/v2/class-wc-api-orders.php:1426
+#: includes/legacy/api/v3/class-wc-api-orders.php:1297
+#: includes/legacy/api/v3/class-wc-api-orders.php:1407
+#: includes/legacy/api/v3/class-wc-api-orders.php:1471
+msgid "Invalid order note ID"
+msgstr "Ugyldig ordre ID"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1258
+#: includes/legacy/api/v2/class-wc-api-orders.php:1369
+#: includes/legacy/api/v2/class-wc-api-orders.php:1433
+#: includes/legacy/api/v3/class-wc-api-orders.php:1303
+#: includes/legacy/api/v3/class-wc-api-orders.php:1414
+#: includes/legacy/api/v3/class-wc-api-orders.php:1478
+msgid "An order note with the provided ID could not be found"
+msgstr "En ordre note med den medfølgende ID kunne ikke findes"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1292
+#: includes/legacy/api/v3/class-wc-api-orders.php:1337
+msgid "You do not have permission to create order notes"
+msgstr "Du har ikke tilladelse til at oprette ordre noter"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1307
+#: includes/legacy/api/v3/class-wc-api-orders.php:1352
+msgid "Order note is required"
+msgstr "En note til ordren er påkrævet"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1316
+#: includes/legacy/api/v3/class-wc-api-orders.php:1361
+msgid "Cannot create order note, please try again."
+msgstr "Kan ikke oprette kommentaren til ordren, prøv venligst igen."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1374
+#: includes/legacy/api/v2/class-wc-api-orders.php:1438
+#: includes/legacy/api/v3/class-wc-api-orders.php:1419
+#: includes/legacy/api/v3/class-wc-api-orders.php:1483
+msgid "The order note ID provided is not associated with the order"
+msgstr "Dette ordrebemærkning-ID er ikke forbundet med ordren"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1445
+#: includes/legacy/api/v3/class-wc-api-orders.php:1490
+msgid "This order note cannot be deleted"
+msgstr "Denne ordre notat kan ikke slettes"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1450
+#: includes/legacy/api/v3/class-wc-api-orders.php:1495
+msgid "Permanently deleted order note"
+msgstr "Slettet permanent ordre notat"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1512
+#: includes/legacy/api/v2/class-wc-api-orders.php:1674
+#: includes/legacy/api/v2/class-wc-api-orders.php:1735
+#: includes/legacy/api/v3/class-wc-api-orders.php:1557
+#: includes/legacy/api/v3/class-wc-api-orders.php:1719
+#: includes/legacy/api/v3/class-wc-api-orders.php:1780
+msgid "Invalid order refund ID."
+msgstr "Ugyldig returnerings ID."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1519
+#: includes/legacy/api/v2/class-wc-api-orders.php:1681
+#: includes/legacy/api/v2/class-wc-api-orders.php:1742
+#: includes/legacy/api/v3/class-wc-api-orders.php:1564
+#: includes/legacy/api/v3/class-wc-api-orders.php:1726
+#: includes/legacy/api/v3/class-wc-api-orders.php:1787
+msgid "An order refund with the provided ID could not be found."
+msgstr "Der kan ikke findes en ordre-refundering med det angivne ID."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1586
+#: includes/legacy/api/v3/class-wc-api-orders.php:1631
+msgid "You do not have permission to create order refunds"
+msgstr "Du har ikke tilladelse til at oprette ordre restitutioner"
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1599
+#: includes/legacy/api/v3/class-wc-api-orders.php:1644
+msgid "Refund amount is required."
+msgstr "Angiv beløbet på refunderingen."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1601
+#: includes/legacy/api/v3/class-wc-api-orders.php:1646
+msgid "Refund amount must be positive."
+msgstr "Beløbet på refunderingen skal være positivt."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1611
+#: includes/legacy/api/v3/class-wc-api-orders.php:1656
+msgid "Cannot create order refund, please try again."
+msgstr "Kan ikke oprette refundering af ordre, forsøg venligst igen."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1628
+#: includes/legacy/api/v3/class-wc-api-orders.php:1673
+msgid "An error occurred while attempting to create the refund using the payment gateway API."
+msgstr "Der opstod en fejl ved forsøg på oprettelse af refundering via betalings gateway API."
+
+#: includes/legacy/api/v2/class-wc-api-orders.php:1686
+#: includes/legacy/api/v2/class-wc-api-orders.php:1747
+#: includes/legacy/api/v3/class-wc-api-orders.php:1731
+#: includes/legacy/api/v3/class-wc-api-orders.php:1792
+msgid "The order refund ID provided is not associated with the order."
+msgstr "Det angivne returordrenummer tilhører ikke ordren."
+
+#: includes/legacy/api/v2/class-wc-api-products.php:221
+#: includes/legacy/api/v3/class-wc-api-products.php:270
+msgid "You do not have permission to create products"
+msgstr "Du har ikke tilladelse til at oprette varer"
+
+#: includes/legacy/api/v2/class-wc-api-products.php:243
+#: includes/legacy/api/v2/class-wc-api-products.php:369
+#: includes/legacy/api/v3/class-wc-api-products.php:292
+#: includes/legacy/api/v3/class-wc-api-products.php:423
+msgid "Invalid product type - the product type must be any of these: %s"
+msgstr "Ugyldig varekategori. Varekategorien skal være en af følgende: %s"
+
+#: includes/legacy/api/v2/class-wc-api-products.php:560
+#: includes/legacy/api/v2/class-wc-api-products.php:598
+#: includes/legacy/api/v3/class-wc-api-products.php:619
+#: includes/legacy/api/v3/class-wc-api-products.php:657
+msgid "You do not have permission to read product categories"
+msgstr "Du har ikke tilladelse til at læse produktkategorier"
+
+#: includes/legacy/api/v2/class-wc-api-products.php:593
+#: includes/legacy/api/v3/class-wc-api-products.php:652
+msgid "Invalid product category ID"
+msgstr "Ugyldig produktkategori ID"
+
+#: includes/legacy/api/v2/class-wc-api-products.php:604
+#: includes/legacy/api/v3/class-wc-api-products.php:663
+msgid "A product category with the provided ID could not be found"
+msgstr "Der blev ikke fundet en varekategori med det angivne ID"
+
+#: includes/legacy/api/v2/class-wc-api-products.php:949
+#: includes/legacy/api/v3/class-wc-api-products.php:1434
+msgid "The SKU already exists on another product."
+msgstr "Dette varenummer findes allerede på en andet vare."
+
+#: includes/legacy/api/v2/class-wc-api-products.php:1841
+#: includes/legacy/api/v2/class-wc-api-products.php:1887
+#: includes/legacy/api/v3/class-wc-api-products.php:2394
+#: includes/legacy/api/v3/class-wc-api-products.php:2440
+msgid "You do not have permission to read product attributes"
+msgstr "Du har ikke tilladelse til at se vareegenskaberne"
+
+#: includes/legacy/api/v2/class-wc-api-products.php:1882
+#: includes/legacy/api/v3/class-wc-api-products.php:2435
+#: includes/legacy/api/v3/class-wc-api-products.php:2800
+msgid "Invalid product attribute ID"
+msgstr "Ugyldig variant ID"
+
+#: includes/legacy/api/v2/class-wc-api-products.php:1897
+#: includes/legacy/api/v2/class-wc-api-products.php:2147
+#: includes/legacy/api/v3/class-wc-api-products.php:2450
+#: includes/legacy/api/v3/class-wc-api-products.php:2702
+#: includes/legacy/api/v3/class-wc-api-products.php:2759
+#: includes/legacy/api/v3/class-wc-api-products.php:2811
+#: includes/legacy/api/v3/class-wc-api-products.php:2861
+#: includes/legacy/api/v3/class-wc-api-products.php:2927
+#: includes/legacy/api/v3/class-wc-api-products.php:2980
+msgid "A product attribute with the provided ID could not be found"
+msgstr "En variant med angivet ID kunne ikke findes"
+
+#: includes/legacy/api/v2/class-wc-api-products.php:1933
+#: includes/legacy/api/v3/class-wc-api-products.php:2486
+msgid "Slug \"%s\" is too long (28 characters max). Shorten it, please."
+msgstr "Slug “%s” er for langt (28 bogstaver max). Afkort det venligst."
+
+#: includes/legacy/api/v2/class-wc-api-products.php:1935
+#: includes/legacy/api/v3/class-wc-api-products.php:2488
+msgid "Slug \"%s\" is not allowed because it is a reserved term. Change it, please."
+msgstr "Slug “%s” er ikke tilladt fordi det er et reserveret ord. Ret det venligst."
+
+#: includes/legacy/api/v2/class-wc-api-products.php:1937
+#: includes/legacy/api/v3/class-wc-api-products.php:2490
+msgid "Slug \"%s\" is already in use. Change it, please."
+msgstr "Slug “%s” er allerede i brug. Ret det venligst."
+
+#: includes/legacy/api/v2/class-wc-api-products.php:1942
+#: includes/legacy/api/v3/class-wc-api-products.php:2495
+msgid "Invalid product attribute type - the product attribute type must be any of these: %s"
+msgstr "Ugyldig variant type - Variant typen skal være en af følgende: %s"
+
+#: includes/legacy/api/v2/class-wc-api-products.php:1947
+#: includes/legacy/api/v3/class-wc-api-products.php:2500
+msgid "Invalid product attribute order_by type - the product attribute order_by type must be any of these: %s"
+msgstr "Ugyldig variant order_by type - Variantens order_by type skal være en følgende: %s"
+
+#: includes/legacy/api/v2/class-wc-api-products.php:1974
+#: includes/legacy/api/v3/class-wc-api-products.php:2527
+#: includes/legacy/api/v3/class-wc-api-products.php:2855
+msgid "You do not have permission to create product attributes"
+msgstr "Du har ikke rettigheder til at kunne oprette attributter"
+
+#: includes/legacy/api/v2/class-wc-api-products.php:2059
+#: includes/legacy/api/v3/class-wc-api-products.php:2613
+#: includes/legacy/api/v3/class-wc-api-products.php:2921
+msgid "You do not have permission to edit product attributes"
+msgstr "Du har ikke tilladelse til at redigere egenskaberne"
+
+#: includes/legacy/api/v2/class-wc-api-products.php:2105
+#: includes/legacy/api/v3/class-wc-api-products.php:2659
+msgid "Could not edit the attribute"
+msgstr "Kunne ikke redigere varianten"
+
+#: includes/legacy/api/v2/class-wc-api-products.php:2135
+#: includes/legacy/api/v3/class-wc-api-products.php:2690
+msgid "You do not have permission to delete product attributes"
+msgstr "Du har ikke rettigheder til at kunne slette atributter"
+
+#: includes/legacy/api/v2/class-wc-api-products.php:2157
+#: includes/legacy/api/v3/class-wc-api-products.php:2712
+msgid "Could not delete the attribute"
+msgstr "Kunne ikke slette varianten"
+
+#: includes/legacy/api/v2/class-wc-api-products.php:2199
+msgid "Invalid product SKU"
+msgstr "Ugyldigt varenummer"
+
+#: includes/legacy/api/v2/class-wc-api-resource.php:103
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:482
+#: includes/legacy/api/v3/class-wc-api-resource.php:111
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:482
+msgid "No %1$s found with the ID equal to %2$s"
+msgstr "Ingen %1$s med ID svarende til %2$s blev fundet"
+
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:143
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:143
+msgid "You do not have permission to read the webhooks count"
+msgstr "Du har ikke tilladelse til at læse de webhooks tæller"
+
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:178
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:178
+msgid "You do not have permission to create webhooks."
+msgstr "Du har ikke tilladelse til at oprette webhooks."
+
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:185
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:185
+msgid "Webhook topic is required and must be valid."
+msgstr "Webhook emne kræves og skal være gyldigt."
+
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:190
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:276
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:190
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:276
+msgid "Webhook delivery URL must be a valid URL starting with http:// or https://"
+msgstr "Webhook levering URL skal være en gyldig URL starter med http: // eller https: //"
+
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:199
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:199
+msgid "Webhook created on %s"
+msgstr "Webhook oprettet den %s"
+
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:199
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:199
+msgctxt "Webhook created on date parsed by DateTime::format"
+msgid "M d, Y @ h:i A"
+msgstr "M d, Y @ h: i A"
+
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:265
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:265
+msgid "Webhook topic must be valid."
+msgstr "Webhook emnet skal være gyldigt."
+
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:441
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:441
+msgid "Invalid webhook delivery ID."
+msgstr "Ugyldigt webhook forsendelses ID."
+
+#: includes/legacy/api/v2/class-wc-api-webhooks.php:449
+#: includes/legacy/api/v3/class-wc-api-webhooks.php:449
+msgid "Invalid webhook delivery."
+msgstr "Ugyldig webhook forsendelse."
+
+#: includes/legacy/api/v3/class-wc-api-authentication.php:111
+msgid "WooCommerce API. Use a consumer key in the username field and a consumer secret in the password field."
+msgstr "WooCommerce API. Brug en brugernøgle (consumer key) i brugernavnsfeltet og en brugerhemmelighed (consumer secret) i feltet adgangskode."
+
+#: includes/legacy/api/v3/class-wc-api-authentication.php:114
+msgid "Consumer Secret is invalid."
+msgstr "Forbrugernøgle hemmelighed er forkert."
+
+#: includes/legacy/api/v3/class-wc-api-products.php:712
+msgid "You do not have permission to create product categories"
+msgstr "Du har ikke rettigheder til at oprette varekategorier"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:732
+msgid "Product category parent is invalid"
+msgstr "Varekategoriens hovedkategori er ugyldig"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:792
+msgid "You do not have permission to edit product categories"
+msgstr "Du har ikke adgang til at kunne redigere varegrupper"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:822
+msgid "Could not edit the category"
+msgstr "Kunne ikke redigere kategorien"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:855
+msgid "You do not have permission to delete product category"
+msgstr "Du har ikke tilladelse til at slette varekategorien"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:861
+msgid "Could not delete the category"
+msgstr "Kunne ikke slette kategorien"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:885
+#: includes/legacy/api/v3/class-wc-api-products.php:923
+msgid "You do not have permission to read product tags"
+msgstr "Du har ikke adgang til at kunne se vare tags"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:918
+msgid "Invalid product tag ID"
+msgstr "Ugyldig vare tag ID"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:929
+msgid "A product tag with the provided ID could not be found"
+msgstr "Et vare tag med det angivede ID kunne ikke findes"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:964
+msgid "You do not have permission to create product tags"
+msgstr "Du har ikke adgang til at kunne oprette vare tags"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:1012
+msgid "You do not have permission to edit product tags"
+msgstr "Du har ikke adgang til at kunne redigere vare tags"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:1024
+msgid "Could not edit the tag"
+msgstr "Kunne ikke redigere tag"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:1047
+msgid "You do not have permission to delete product tag"
+msgstr "Du har ikke adgang til at slette vare tag"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:1053
+msgid "Could not delete the tag"
+msgstr "Kunne ikke slette tag"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:2752
+#: includes/legacy/api/v3/class-wc-api-products.php:2805
+msgid "You do not have permission to read product attribute terms"
+msgstr "Du har ikke adgang til at kunne se variant egenskaber"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:2817
+msgid "A product attribute term with the provided ID could not be found"
+msgstr "En variant med angivet Id kunne ikke findes"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:2974
+msgid "You do not have permission to delete product attribute terms"
+msgstr "Du har ikke adgang til at kunne slette variant egenskaber"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:3117
+#: includes/legacy/api/v3/class-wc-api-products.php:3152
+msgid "You do not have permission to read product shipping classes"
+msgstr "Du har ikke adgang til at kunne se forsendelses klasser"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:3147
+msgid "Invalid product shipping class ID"
+msgstr "Ugyldig forsendelsesklasse ID"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:3158
+msgid "A product shipping class with the provided ID could not be found"
+msgstr "En forsendelses klasse med angivet ID kunne ikke findes"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:3196
+msgid "You do not have permission to create product shipping classes"
+msgstr "Du har ikke tilladelse til at oprette produkt forsendelses klasser"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:3214
+msgid "Product shipping class parent is invalid"
+msgstr "Ugyldig overordnet forsendelsesklasse ID"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:3257
+msgid "You do not have permission to edit product shipping classes"
+msgstr "Du har ikke adgang til at kunne redigere forsendelses klasser"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:3269
+msgid "Could not edit the shipping class"
+msgstr "Kunne ikke redigere forsendelses klassen"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:3294
+msgid "You do not have permission to delete product shipping classes"
+msgstr "Du har ikke adgang til at slette forsendelses klasser"
+
+#: includes/legacy/api/v3/class-wc-api-products.php:3300
+msgid "Could not delete the shipping class"
+msgstr "Kunne ikke slette forsendelses klasse"
+
+#: includes/legacy/api/v3/class-wc-api-taxes.php:128
+msgid "You do not have permission to read tax rate"
+msgstr "Du har ikke adgang til at se moms satser"
+
+#: includes/legacy/api/v3/class-wc-api-taxes.php:135
+msgid "A tax rate with the provided ID could not be found"
+msgstr "En moms sats med angivet ID kunne ikke findes"
+
+#: includes/legacy/api/v3/class-wc-api-taxes.php:189
+msgid "You do not have permission to create tax rates"
+msgstr "Du har ikke tilladelse til at oprette momssatser"
+
+#: includes/legacy/api/v3/class-wc-api-taxes.php:259
+msgid "You do not have permission to edit tax rates"
+msgstr "Du har ikke adgang til at kunne redigere moms satser"
+
+#: includes/legacy/api/v3/class-wc-api-taxes.php:343
+msgid "You do not have permission to delete tax rates"
+msgstr "Du har ikke adgang til at kunne slette moms satser"
+
+#: includes/legacy/api/v3/class-wc-api-taxes.php:351
+msgid "Could not delete the tax rate"
+msgstr "Kunne ikke slette moms satsen"
+
+#: includes/legacy/api/v3/class-wc-api-taxes.php:373
+msgid "You do not have permission to read the taxes count"
+msgstr "Du har ikke tilladelse til at læse skatte tæller"
+
+#: includes/legacy/api/v3/class-wc-api-taxes.php:526
+msgid "You do not have permission to read tax classes"
+msgstr "Du har ikke adgang til at kunne se moms satser"
+
+#: includes/legacy/api/v3/class-wc-api-taxes.php:534
+msgid "Standard rate"
+msgstr "Standard sats"
+
+#: includes/legacy/api/v3/class-wc-api-taxes.php:569
+msgid "You do not have permission to create tax classes"
+msgstr "Du har ikke adgang til at kunne oprette moms klasser"
+
+#: includes/legacy/api/v3/class-wc-api-taxes.php:612
+msgid "You do not have permission to delete tax classes"
+msgstr "Du har ikke rettigheder til at slette moms satser"
+
+#: includes/legacy/api/v3/class-wc-api-taxes.php:620
+msgid "Could not delete the tax class"
+msgstr "Kunne ikke slette momsklasse"
+
+#: includes/legacy/api/v3/class-wc-api-taxes.php:639
+msgid "You do not have permission to read the tax classes count"
+msgstr "Du har ikke rettigheder til at læse antallet af moms satser"
+
+#. Author URI of the plugin
+#: woocommerce-legacy-rest-api.php
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
